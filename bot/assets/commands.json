@@ -1,0 +1,36 @@
+{
+  "commands": [
+    "translate",
+    "search",
+    "roll",
+    "sayd",
+    "say",
+    "map"
+  ],
+  "examples": {
+    "translate": "translate [text] <lang=[КОД ЯЗЫКА]>       ",
+    "search": "search [target]       ",
+    "sayd": "sayd [text]       ",
+    "say": "say [text]       ",
+    "map": "map [target] <'-z=n'> - где n число от 2 до 19       ",
+    "roll": "roll <-r=n> - где n число от 10 до 10000       "
+  },
+  "errors": {
+    "IndexError": {
+      "translate": "Ошибка при переводе...",
+      "search": "Поиск не дал результатов...",
+      "roll": "",
+      "sayd": "",
+      "say": "",
+      "map": "Поиск не дал результатов..."
+    },
+    "ValueError": {
+      "translate": "Похоже запрос введен некорректно",
+      "search": "Похоже запрос введен некорректно",
+      "roll": "Похоже запрос введен некорректно",
+      "sayd": "Похоже запрос введен некорректно",
+      "say": "Похоже запрос введен некорректно",
+      "map": "Похоже запрос введен некорректно"
+    }
+  }
+}
